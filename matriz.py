@@ -27,7 +27,7 @@ registro = []
 registrosaida = []
 registroentrada = []
 lista= []
-with open("grafo_mini.txt") as file:
+with open("wiki_sp.txt") as file:
     for linha in file:
         linha = linha.strip('\n')
         linha = linha.split(',')
